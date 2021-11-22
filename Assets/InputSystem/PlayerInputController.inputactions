@@ -1,0 +1,52 @@
+{
+    "name": "PlayerInputController",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "f700c0a6-af2b-4165-9a4c-1f3798988065",
+            "actions": [
+                {
+                    "name": "Delta",
+                    "type": "PassThrough",
+                    "id": "3778f035-b838-40cd-86d9-8ff612415227",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "0848a6ea-e833-489e-9157-5f708f07c4fe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e95bb839-fdad-4774-ac43-e60331701e05",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Delta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6b6be227-6069-442f-86fb-fb7872dfb108",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
